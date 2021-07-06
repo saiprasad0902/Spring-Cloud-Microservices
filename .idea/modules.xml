@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Cloud-Microservices.iml" filepath="$PROJECT_DIR$/.idea/Spring-Cloud-Microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-m2-configserver/springcloud-m2-configserver.iml" filepath="$PROJECT_DIR$/springcloud-m2-configserver/springcloud-m2-configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-m2-configserver-git/springcloud-m2-configserver-git.iml" filepath="$PROJECT_DIR$/springcloud-m2-configserver-git/springcloud-m2-configserver-git.iml" />
+    </modules>
+  </component>
+</project>
