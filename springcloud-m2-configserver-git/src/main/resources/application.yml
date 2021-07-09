@@ -1,0 +1,26 @@
+---
+server:
+  port: 8888
+security:
+  basic:
+    enabled: true
+  user:
+    name: sai
+    password: sai
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/saiprasad0902/spring-cloudconfig-india-tolls
+          #username :
+          #password:
+          search-paths:
+            - 'station*'
+          repos:
+            perf:
+              pattern:
+                - "*/perf"
+              uri: https://github.com/saiprasad0902/spring-cloudconfig-india-tolls-perf
+              search-paths:
+                - 'station*'
